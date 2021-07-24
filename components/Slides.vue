@@ -4,7 +4,7 @@
       <img
         style="width: 120px"
         class="img-responsive rounded-circle mb-25"
-        src="../assets/testim-1.png"
+        src="../assets/testim-1.jpg"
       />
       <h3 class="text">
         <svg
@@ -28,7 +28,7 @@
       <img
         style="width: 120px"
         class="img-responsive rounded-circle mb-25"
-        src="../assets/testim-2.png"
+        src="../assets/testim-2.jpg"
       />
       <h4 class="text">
         <svg
@@ -53,7 +53,7 @@
       <img
         style="width: 120px"
         class="img-responsive rounded-circle mb-25"
-        src="../assets/testim-3.png"
+        src="../assets/testim-3.jpg"
       />
       <h2 class="text">
         <svg

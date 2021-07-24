@@ -227,7 +227,7 @@
     <div class="row-contrast-wrapper-1-s spacer-l big-disappear">
       <img
         class="img-responsive img-small rounded-circle"
-        src="../assets/testim-2.png"
+        src="../assets/testim-2.jpg"
       />
       <h2 class="spacer-s">
         "Partivo con <span class="demibold">zero esperienza tecnica</span>, ma
@@ -246,7 +246,7 @@
         <div class="col-lg-2 text-center">
           <img
             class="img-responsive rounded-circle"
-            src="../assets/testim-2.png"
+            src="../assets/testim-2.jpg"
           />
         </div>
         <div class="col-lg-10">
