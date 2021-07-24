@@ -1,11 +1,11 @@
 <template>
   <div class="container-fluid">
-    <div class="row-padding-s row">
+    <div class="row row-padding-s">
       <div class="col-lg-6">
-        <img class="img-responsive align-middle" src="../assets/jumbo.jpeg" />
+        <img class="img-responsive img-small" src="../assets/jumbo.jpeg" />
       </div>
-      <div class="col-lg-1"></div>
-      <div class="col-lg-5">
+      <div class="col-lg-6">
+        <div class="big-disappear spacer-s"></div>
         <div class="jumbo">
           <p class="mobile-spacer-s">
             ⚡
@@ -17,17 +17,17 @@
             Valida la tua idea e avvia la tua startup. <br />
             Senza co-founder tecnico
           </h1>
-          <h4 class="font-fuzzy" style="line-height: 1.5">
-            In <img id="logo-small" src="../assets/logo-q.png" /><span
-              class="bolder"
+          <h4 class="font-fuzzy line-height-s spacer-xs">
+            In <img class="logo-small" src="../assets/logo-q.png" /><span
+              class="bold"
               >DieciQ</span
             >
             trovi contenuti e supporto per pubblicare una landing page senza
             developer e completare lo smoke test spendendo poco.
           </h4>
           <nuxt-link to="/pioneer">
-            <button class="button yellow-button titlet-big">
-              Comincia subito >
+            <button class="spacer-s btn d-card-btn p-10-20 cta-jumbotron">
+              <span class="dark">Comincia subito</span>
             </button></nuxt-link
           >
         </div>
@@ -87,8 +87,8 @@
     </div>
     <div class="row-padding-s">
       <nuxt-link to="/pioneer">
-        <button class="button yellow-button titlet-big">
-          Valida la tua idea adesso >
+        <button class="spacer-s btn d-card-btn p-10-20 cta-jumbotron">
+          <span class="dark">Valida la tua idea adesso</span>
         </button></nuxt-link
       >
     </div>
@@ -104,73 +104,12 @@ export default {
 };
 </script>
 <style>
-body {
-  background-color: #f7f8fc;
+.opacity-blink {
+  animation: blinker 3s linear infinite;
 }
-
-.p-50 {
-  padding: 50px;
-}
-
-.div-gradient {
-  background: #e2e6f3;
-  background: linear-gradient(#e2e6f3, #f7f8fc);
-}
-
-.col-gradient {
-  padding: 20px;
-}
-.div-gradient .jumbo h1 {
-  color: #000;
-}
-.div-gradient h4 {
-  padding-top: 20px;
-  color: #666;
-}
-
-.button-title {
-  color: grey;
-}
-.button-image-disabled {
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
-.button-image {
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
-  transition: all 0.5s ease;
-}
-.button-image:hover {
-  -webkit-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
-  filter: grayscale(0%);
-}
-
-.img-responsive {
-  width: 100%;
-  border-radius: 4px;
-  transition: all 0.4s;
-}
-.img-responsive-s {
-  width: 60% !important;
-  border-radius: 4px;
-  transition: all 0.4s;
-}
-.img-responsive:hover,
-.img-responsive-s:hover {
-  opacity: 0.7;
-  transition: all 0.4s;
-  cursor: pointer;
-}
-
-#logo-small {
-  width: 26px;
-  margin-right: 8px;
-}
-#logo-smaller {
-  width: 18px;
-  margin: 0 3px;
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
 </style>
